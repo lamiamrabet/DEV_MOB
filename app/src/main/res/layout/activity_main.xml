@@ -17,7 +17,7 @@
         android:gravity="center"
         android:padding="30dp"
         android:text="Mesure de niveau de glycémie"
-        android:textColor="@color/red"
+        android:textColor="#ffff"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

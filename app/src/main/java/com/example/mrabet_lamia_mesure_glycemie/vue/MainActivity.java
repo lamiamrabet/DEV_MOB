@@ -1,7 +1,7 @@
 package com.example.mrabet_lamia_mesure_glycemie.vue;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import com.example.mrabet_lamia_mesure_glycemie.controller.controller;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -83,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -106,10 +107,5 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-
-
-
-
 
 }
