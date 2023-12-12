@@ -7,6 +7,7 @@ public class patient {
     private float valeurMesuree;
     private static String r;
 
+    //Flèche "Update" Controller --> Model
     public patient(boolean isFasting, int age, float valeurMesuree) {
         this.isFasting = isFasting;
         this.age = age;
@@ -59,6 +60,7 @@ public class patient {
         return valeurMesuree;
     }
 
+    //Flèche "Notify" Model --> Controller
     public static String getR() {
         return r;
     }
