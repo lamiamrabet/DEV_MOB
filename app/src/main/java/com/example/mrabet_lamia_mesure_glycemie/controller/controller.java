@@ -1,4 +1,6 @@
 package com.example.mrabet_lamia_mesure_glycemie.controller;
+import android.annotation.SuppressLint;
+
 import com.example.mrabet_lamia_mesure_glycemie.modele.patient;
 public class controller {
     private static controller instance = null;
@@ -6,6 +8,7 @@ public class controller {
     private controller(){
         super();
     }
+    @SuppressLint("SuspiciousIndentation")
     public static final controller getInstance(){
         if(controller.instance == null)
             controller.instance = new controller();
